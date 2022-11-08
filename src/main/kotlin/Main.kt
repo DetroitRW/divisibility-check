@@ -8,4 +8,12 @@ fun main(args: Array<String>) {
 
     print("Введите число: ")
     val b = reader.nextInt()
+
+    if (a % b == 0) {
+        println("$a делится на $b")
+    } else {
+        println("$a НЕ делится на $b")
+        println("Остаток: " + (a % b))
+    }
+    print("Частное: " + (a / b))
 }
